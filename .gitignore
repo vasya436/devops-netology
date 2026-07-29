@@ -1,0 +1,26 @@
+# Артефакты сборки и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Переменные окружения и секреты
+.env
+*.key
+*.pem
+*.crt
+
+# Директории зависимостей и кэшей
+node_modules/
+vendor/
+.cache/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Локальные конфиги, которые не должны улетать в репозиторий
+config-local.yaml
+helm-values-local.yaml
