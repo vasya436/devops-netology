@@ -1,4 +1,3 @@
-cat > branching/rebase.sh << 'EOF'
 #!/bin/bash
 # display command line options
 
@@ -9,4 +8,4 @@ for param in "$@"; do
 done
 
 echo "====="
-EOF
+
